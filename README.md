@@ -2,7 +2,7 @@
 
 ## C 기초 플러스 프로그래밍 연습문제 풀이 
 
-1. 준비 - Ready [x]
+1. 준비 - Ready
 2. C 첫걸음 - C First Step
 3. 데이터와 C - Data and C
 4. 문자열과 입출력 포맷 - String and I/O format
