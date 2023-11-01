@@ -130,6 +130,9 @@
     <ClCompile Include="main.c" />
     <ClCompile Include="Q14-1.c" />
     <ClCompile Include="Q14-3.c" />
+    <ClCompile Include="Q14-4.c" />
+    <ClCompile Include="Q14-5.c" />
+    <ClCompile Include="Q14-6.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h" />
