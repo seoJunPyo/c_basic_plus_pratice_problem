@@ -128,6 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
+    <ClCompile Include="Q14-1.c" />
+    <ClCompile Include="Q14-3.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Q14.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
