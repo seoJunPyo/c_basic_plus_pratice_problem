@@ -36,9 +36,18 @@
     <ClCompile Include="Q14-6.c">
       <Filter>소스 파일\structuer_and_other_data_type</Filter>
     </ClCompile>
+    <ClCompile Include="Q14-7.c">
+      <Filter>소스 파일\structuer_and_other_data_type</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

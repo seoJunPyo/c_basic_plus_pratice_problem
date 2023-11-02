@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "Q14.h"
+#include "util.h"
 
 #define MAXTITL 40
 #define MAXAUTL 40
@@ -12,7 +12,7 @@ struct book {
 	float value;
 };
 
-char* s_gets(char*, int);
+
 void sort_by_create(struct book[], int);
 void sort_by_title(struct book[], int);
 void sort_by_value(struct book[], int);
@@ -78,25 +78,6 @@ int Q14_3(void)
 
 
 	return 0;
-}
-
-char* s_gets(char* str, int n)
-{
-	char* ret_val;
-	char* find;
-
-	ret_val = fgets(str, n, stdin);
-	if (ret_val)
-	{
-		find = strchr(str, '\n');
-		if (find)
-			*find = '\0';
-		else
-			while (getchar() != '\n')
-				continue;
-	}
-
-	return ret_val;
 }
 
 void sort_by_create(struct book library[], int n)
