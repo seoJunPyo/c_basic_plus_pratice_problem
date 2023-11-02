@@ -30,13 +30,16 @@ int Q14_8(void)
 	struct seat seat_list[MAX_SEAT];
 	char choice;
 
-	if (fopen_s(&pseats, "seat.dat", "ab") != 0)
+	if (fopen_s(&pseats, "seat.dat", "a+b") != 0)
 	{
 		puts("seat.dat 파일을 열 수 없습니다");
 		exit(EXIT_FAILURE);
 	}
 
 	init_list(pseats, seat_list);
+
+
+		
 
 	puts("a) 비어 있는 좌석 수 표시");
 	puts("b) 비어 있는 좌석 목록 표시");
@@ -96,6 +99,7 @@ char get_first(void)
 
 void init_list(FILE *pseats, struct seat seat_list[])
 {
+	struct seat temp;
 	int idx = 0;
 
 	for (int i = 0; i < MAX_SEAT; i++)
@@ -106,8 +110,12 @@ void init_list(FILE *pseats, struct seat seat_list[])
 		seat_list[i].last_name[0] = '\0';
 	}
 
-	while (fread(&seat_list[idx], sizeof(struct seat), 1, pseats) == 1)
-		continue;
+	while (fread(&temp, sizeof(struct seat), 1, pseats) == 1)
+	{
+		strncpy_s(seat_list[temp.num - 1].first_name, MAX_NAME, temp.first_name, MAX_NAME);
+		strncpy_s(seat_list[temp.num - 1].last_name, MAX_NAME, temp.last_name, MAX_NAME);
+		if (temp.first_name[0] != '\0') seat_list[temp.num - 1].is_reserved = true;
+	}
 }
 
 void save_list(FILE* pseats, struct seat seat_list[])
