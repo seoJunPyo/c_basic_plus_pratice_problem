@@ -16,6 +16,8 @@ void show_reservation_holders(struct seat[]);
 void make_reservation(struct seat[]);
 void cancel_reservation(struct seat[]);
 
+static char * airplan_name;
+
 struct seat
 {
 	int num;
@@ -24,22 +26,29 @@ struct seat
 	char last_name[MAX_NAME];
 };
 
-int Q14_8(void)
+int Q14_8(char * airplan)
 {
 	FILE *pseats = NULL;
 	struct seat seat_list[MAX_SEAT];
 	char choice;
+	char air[50];
+	int i;
 
-	if (fopen_s(&pseats, "seat.dat", "a+b") != 0)
+	for (i = 0; i < strlen(airplan); i++)
+		air[i] = airplan[i];
+	air[i] = '\0';
+	airplan_name = airplan;
+
+	printf("%s편 비행기 예약입니다.\n", airplan);
+
+	strcat_s(air, 50, ".dat");
+	if (fopen_s(&pseats, air, "a+b") != 0)
 	{
 		puts("seat.dat 파일을 열 수 없습니다");
 		exit(EXIT_FAILURE);
 	}
 
 	init_list(pseats, seat_list);
-
-
-		
 
 	puts("a) 비어 있는 좌석 수 표시");
 	puts("b) 비어 있는 좌석 목록 표시");
@@ -77,24 +86,13 @@ int Q14_8(void)
 		puts("c) 예약된 좌적을 고객 이름의 알파벳 순으로 표시");
 		puts("d) 좌석 예약");
 		puts("e) 예약 취소");
-		puts("f) 프로그램 종료");
+		puts("f) 현재 예약 종료");
 	}
 	fclose(pseats);
 	save_list(pseats, seat_list);
-	puts("종료.");
+	puts("예약 종료.");
 	
 	return 0;
-}
-
-char get_first(void)
-{
-	char ch;
-	ch = getchar();
-
-	while (getchar() != '\n')
-		continue;
-
-	return ch;
 }
 
 void init_list(FILE *pseats, struct seat seat_list[])
@@ -138,12 +136,12 @@ void show_empty_seats_count(struct seat seat_list[])
 		if (!seat_list[i].is_reserved)
 			sum++;
 
-	printf("현재 비어 있는 좌석의 수는 %d입니다.\n", sum);
+	printf("%s편 - 현재 비어 있는 좌석의 수는 %d입니다.\n", airplan_name, sum);
 }
 
 void show_empty_seats(struct seat seat_list[])
 {
-	puts("현재 비어 있는 좌석 리스트\n");
+	printf("%s편 - 현재 비어 있는 좌석 리스트\n", airplan_name);
 
 	for (int i = 0; i < MAX_SEAT; i++)
 		if (!seat_list[i].is_reserved)
@@ -205,7 +203,7 @@ void make_reservation(struct seat seat_list[])
 			input_seat_num(&seat_num);
 		}
 
-		printf("선택하신 좌석은 %d입니다.\n", seat_num);
+		printf("선택하신 좌석은 %s편 %d입니다.\n",airplan_name, seat_num);
 		printf("1. %-20s 2. %-20s\n", "다음", "다시 선택");
 		scanf_s("%d", &choice);
 		eat_chars();
@@ -225,7 +223,7 @@ void make_reservation(struct seat seat_list[])
 	} while (choice == 2);
 
 
-	printf("%s %s 고객님, %d번 좌석 예약 완료되었습니다.\n", seat_list[seat_num - 1].first_name, seat_list[seat_num - 1].last_name, seat_num);
+	printf("%s %s 고객님,%s편 %d번 좌석 예약 완료되었습니다.\n", seat_list[seat_num - 1].first_name, seat_list[seat_num - 1].last_name, airplan_name, seat_num);
 	seat_list[seat_num - 1].is_reserved = true;
 }
 
@@ -245,13 +243,13 @@ void cancel_reservation(struct seat seat_list[])
 			return;
 		}
 
-		printf("%d번 좌석 %s %s이 예약하신 좌석입니다. 취소하시겠습니까?\n", seat_num, seat_list[seat_num - 1].last_name, seat_list[seat_num - 1].first_name);
+		printf("%s편 %d번 좌석 %s %s이 예약하신 좌석입니다. 취소하시겠습니까?\n", airplan_name, seat_num, seat_list[seat_num - 1].last_name, seat_list[seat_num - 1].first_name);
 		printf("1. %-20s 2. %-20s\n", "취소하기", "다시 선택");
 		scanf_s("%d", &choice);
 		eat_chars();
 	} while (choice == 2);
 
-	printf("%s %s 고객님, %d번 좌석 예약 취소되었습니다.\n", seat_list[seat_num - 1].first_name, seat_list[seat_num - 1].last_name, seat_num);
+	printf("%s %s 고객님,%s편 %d번 좌석 예약 취소되었습니다.\n", seat_list[seat_num - 1].first_name, seat_list[seat_num - 1].last_name, airplan_name, seat_num);
 	seat_list[seat_num - 1].first_name[0] = '\0';
 	seat_list[seat_num - 1].last_name[0] = '\0';
 	seat_list[seat_num - 1].is_reserved = false;
