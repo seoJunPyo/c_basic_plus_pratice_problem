@@ -19,3 +19,9 @@ char* s_gets(char* str, int n)
 
 	return ret_val;
 }
+
+void eat_chars(void)
+{
+	while (getchar() != '\n')
+		continue;
+}

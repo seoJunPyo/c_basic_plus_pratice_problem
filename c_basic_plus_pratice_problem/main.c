@@ -3,6 +3,6 @@
 
 int main(void)
 {
-	Q14_7();
+	Q14_8();
 	return 0;
 }

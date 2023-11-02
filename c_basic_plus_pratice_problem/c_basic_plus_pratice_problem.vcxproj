@@ -134,6 +134,7 @@
     <ClCompile Include="Q14-5.c" />
     <ClCompile Include="Q14-6.c" />
     <ClCompile Include="Q14-7.c" />
+    <ClCompile Include="Q14-8.c" />
     <ClCompile Include="util.c" />
   </ItemGroup>
   <ItemGroup>
