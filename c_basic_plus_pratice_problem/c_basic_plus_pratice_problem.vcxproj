@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="14-11.c" />
+    <ClCompile Include="15-7.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="Q14-1.c" />
     <ClCompile Include="Q14-10.c" />
@@ -137,10 +139,17 @@
     <ClCompile Include="Q14-7.c" />
     <ClCompile Include="Q14-8.c" />
     <ClCompile Include="Q14-9.c" />
+    <ClCompile Include="Q15-1.c" />
+    <ClCompile Include="Q15-2.c" />
+    <ClCompile Include="Q15-3.c" />
+    <ClCompile Include="Q15-5.c" />
+    <ClCompile Include="Q15-4.c" />
+    <ClCompile Include="Q15-6.c" />
     <ClCompile Include="util.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h" />
+    <ClInclude Include="Q15.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

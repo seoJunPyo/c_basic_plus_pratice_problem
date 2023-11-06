@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\structuer_and_other_data_type">
       <UniqueIdentifier>{e629d30c-aa66-4cdd-848c-b4bc579b6719}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\bit">
+      <UniqueIdentifier>{ff82cc86-747d-436e-bc50-b3b8a6107e35}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -51,12 +54,39 @@
     <ClCompile Include="Q14-10.c">
       <Filter>소스 파일\structuer_and_other_data_type</Filter>
     </ClCompile>
+    <ClCompile Include="14-11.c">
+      <Filter>소스 파일\structuer_and_other_data_type</Filter>
+    </ClCompile>
+    <ClCompile Include="Q15-1.c">
+      <Filter>소스 파일\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="Q15-2.c">
+      <Filter>소스 파일\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="Q15-3.c">
+      <Filter>소스 파일\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="Q15-4.c">
+      <Filter>소스 파일\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="Q15-5.c">
+      <Filter>소스 파일\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="Q15-6.c">
+      <Filter>소스 파일\bit</Filter>
+    </ClCompile>
+    <ClCompile Include="15-7.c">
+      <Filter>소스 파일\bit</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="util.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Q15.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

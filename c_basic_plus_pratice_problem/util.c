@@ -28,12 +28,21 @@ void eat_chars(void)
 
 char get_first(void)
 {
-	eat_chars();
-
 	char ch;
 	ch = getchar();
 
 	eat_chars();
 
 	return ch;
+}
+
+
+int scan_num(char *format,  int* num)
+{
+	int status;
+
+	status = scanf_s(format, num);
+	eat_chars();
+
+	return status;
 }
