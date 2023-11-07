@@ -130,6 +130,7 @@
     <ClCompile Include="14-11.c" />
     <ClCompile Include="15-7.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="Q1-1.c" />
     <ClCompile Include="Q14-1.c" />
     <ClCompile Include="Q14-10.c" />
     <ClCompile Include="Q14-3.c" />
@@ -145,11 +146,28 @@
     <ClCompile Include="Q15-5.c" />
     <ClCompile Include="Q15-4.c" />
     <ClCompile Include="Q15-6.c" />
+    <ClCompile Include="Q2-1.c" />
+    <ClCompile Include="Q2-3.c" />
+    <ClCompile Include="Q2-4.c" />
+    <ClCompile Include="Q2-6.c" />
+    <ClCompile Include="Q2-2.c" />
+    <ClCompile Include="Q2-5.c" />
+    <ClCompile Include="Q2-7.c" />
+    <ClCompile Include="Q2-8.c" />
+    <ClCompile Include="Q3-2.c" />
+    <ClCompile Include="Q3-3.c" />
+    <ClCompile Include="Q3-4.c" />
+    <ClCompile Include="Q3-5.c" />
+    <ClCompile Include="Q3-6.c" />
+    <ClCompile Include="Q3-7.c" />
+    <ClCompile Include="Q3-8.c" />
     <ClCompile Include="util.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h" />
     <ClInclude Include="Q15.h" />
+    <ClInclude Include="Q2.h" />
+    <ClInclude Include="Q3.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

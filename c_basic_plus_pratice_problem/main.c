@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include "Q2.h"
+#include "Q3.h"
 #include "Q14.h"
 #include "Q15.h"
 
 int main(void)
 {
-	Q15_7();
+	Q3_7();
 	return 0;
 }

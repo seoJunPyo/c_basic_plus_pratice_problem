@@ -19,6 +19,15 @@
     <Filter Include="소스 파일\bit">
       <UniqueIdentifier>{ff82cc86-747d-436e-bc50-b3b8a6107e35}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ready">
+      <UniqueIdentifier>{0c7ef6b9-c055-46ce-bcb4-40a13190c39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\first_step">
+      <UniqueIdentifier>{5731a758-1c58-4b90-8fe8-774d585ead8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\data_and_c">
+      <UniqueIdentifier>{5ef7db48-72ec-4f5e-98cc-0baefcf6526d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -78,6 +87,54 @@
     <ClCompile Include="15-7.c">
       <Filter>소스 파일\bit</Filter>
     </ClCompile>
+    <ClCompile Include="Q1-1.c">
+      <Filter>소스 파일\ready</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2-1.c">
+      <Filter>소스 파일\first_step</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2-2.c">
+      <Filter>소스 파일\first_step</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2-3.c">
+      <Filter>소스 파일\first_step</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2-4.c">
+      <Filter>소스 파일\first_step</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2-5.c">
+      <Filter>소스 파일\first_step</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2-6.c">
+      <Filter>소스 파일\first_step</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2-7.c">
+      <Filter>소스 파일\first_step</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2-8.c">
+      <Filter>소스 파일\first_step</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3-2.c">
+      <Filter>소스 파일\data_and_c</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3-3.c">
+      <Filter>소스 파일\data_and_c</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3-4.c">
+      <Filter>소스 파일\data_and_c</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3-5.c">
+      <Filter>소스 파일\data_and_c</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3-6.c">
+      <Filter>소스 파일\data_and_c</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3-7.c">
+      <Filter>소스 파일\data_and_c</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3-8.c">
+      <Filter>소스 파일\data_and_c</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
@@ -87,6 +144,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Q15.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Q2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Q3.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
