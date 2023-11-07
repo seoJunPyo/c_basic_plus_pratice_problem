@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\data_and_c">
       <UniqueIdentifier>{5ef7db48-72ec-4f5e-98cc-0baefcf6526d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\string_and_io">
+      <UniqueIdentifier>{4f617a70-f7bf-44fa-8e40-a47eb2065caf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -135,6 +138,30 @@
     <ClCompile Include="Q3-8.c">
       <Filter>소스 파일\data_and_c</Filter>
     </ClCompile>
+    <ClCompile Include="Q4-1.c">
+      <Filter>소스 파일\string_and_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4-2.c">
+      <Filter>소스 파일\string_and_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4-3.c">
+      <Filter>소스 파일\string_and_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4-4.c">
+      <Filter>소스 파일\string_and_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4-5.c">
+      <Filter>소스 파일\string_and_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4-6.c">
+      <Filter>소스 파일\string_and_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4-7.c">
+      <Filter>소스 파일\string_and_io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4-8.c">
+      <Filter>소스 파일\string_and_io</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
@@ -150,6 +177,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Q3.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Q4.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
