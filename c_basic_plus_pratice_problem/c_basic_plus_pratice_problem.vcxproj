@@ -184,6 +184,8 @@
     <ClCompile Include="Q6-13.c" />
     <ClCompile Include="Q6-14.c" />
     <ClCompile Include="Q6-15.c" />
+    <ClCompile Include="Q6-16.c" />
+    <ClCompile Include="Q6-17.c" />
     <ClCompile Include="Q6-2.c" />
     <ClCompile Include="Q6-3.c" />
     <ClCompile Include="Q6-4.c" />
@@ -193,6 +195,17 @@
     <ClCompile Include="Q6-8.c" />
     <ClCompile Include="Q6-9.c" />
     <ClCompile Include="Q6-12.c" />
+    <ClCompile Include="Q7-1.c" />
+    <ClCompile Include="Q7-11.c" />
+    <ClCompile Include="Q7-2.c" />
+    <ClCompile Include="Q7-4.c" />
+    <ClCompile Include="Q7-3.c" />
+    <ClCompile Include="Q7-5.c" />
+    <ClCompile Include="Q7-6.c" />
+    <ClCompile Include="Q7-7.c" />
+    <ClCompile Include="Q7-8.c" />
+    <ClCompile Include="Q7-9.c" />
+    <ClCompile Include="Q7-10.c" />
     <ClCompile Include="util.c" />
   </ItemGroup>
   <ItemGroup>
@@ -202,6 +215,7 @@
     <ClInclude Include="Q3.h" />
     <ClInclude Include="Q4.h" />
     <ClInclude Include="Q6.h" />
+    <ClInclude Include="Q7.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

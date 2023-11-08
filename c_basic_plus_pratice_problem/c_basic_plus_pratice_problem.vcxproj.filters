@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\loop">
       <UniqueIdentifier>{1a439c43-8036-4826-a1c5-ae81adc9fb18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\jump">
+      <UniqueIdentifier>{cc8886a1-0e8b-49de-8bcd-fd8deda40916}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -240,6 +243,45 @@
     <ClCompile Include="Q6-15.c">
       <Filter>소스 파일\loop</Filter>
     </ClCompile>
+    <ClCompile Include="Q6-16.c">
+      <Filter>소스 파일\loop</Filter>
+    </ClCompile>
+    <ClCompile Include="Q6-17.c">
+      <Filter>소스 파일\loop</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7-1.c">
+      <Filter>소스 파일\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7-2.c">
+      <Filter>소스 파일\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7-3.c">
+      <Filter>소스 파일\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7-4.c">
+      <Filter>소스 파일\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7-5.c">
+      <Filter>소스 파일\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7-6.c">
+      <Filter>소스 파일\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7-7.c">
+      <Filter>소스 파일\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7-8.c">
+      <Filter>소스 파일\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7-9.c">
+      <Filter>소스 파일\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7-10.c">
+      <Filter>소스 파일\jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7-11.c">
+      <Filter>소스 파일\jump</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
@@ -261,6 +303,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Q6.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Q7.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

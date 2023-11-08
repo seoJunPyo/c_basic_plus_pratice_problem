@@ -4,11 +4,12 @@
 #include "Q4.h"
 #include "Q5.h"
 #include "Q6.h"
+#include "Q7.h"
 #include "Q14.h"
 #include "Q15.h"
 
 int main(void)
 {
-	Q6_15();
+	Q7_11();
 	return 0;
 }

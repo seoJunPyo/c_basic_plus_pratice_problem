@@ -1,0 +1,11 @@
+int Q7_1(void);
+int Q7_2(void);
+int Q7_3(void);
+int Q7_4(void);
+int Q7_5(void);
+int Q7_6(void);
+int Q7_7(void);
+int Q7_8(void);
+int Q7_9(void);
+int Q7_10(void);
+int Q7_11(void);

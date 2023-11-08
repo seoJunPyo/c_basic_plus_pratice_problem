@@ -13,3 +13,5 @@ int Q6_12(void);
 int Q6_13(void);
 int Q6_14(void);
 int Q6_15(void);
+int Q6_16(void);
+int Q6_17(void);
