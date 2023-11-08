@@ -1,0 +1,15 @@
+int Q6_1(void);
+int Q6_2(void);
+int Q6_3(void);
+int Q6_4(void);
+int Q6_5(void);
+int Q6_6(void);
+int Q6_7(void);
+int Q6_8(void);
+int Q6_9(void);
+int Q6_10(void);
+int Q6_11(void);
+int Q6_12(void);
+int Q6_13(void);
+int Q6_14(void);
+int Q6_15(void);
