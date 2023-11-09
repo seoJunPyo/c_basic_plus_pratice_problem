@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 #include "util.h"
 #define MAX_TIME 40
 #define OVERTIME_PAY BASE_PAY * 1.5
@@ -12,31 +13,30 @@ void print_line(void);
 void show_pay(double base_pay);
 void show_menu(void);
 
-int Q7_8(void)
+int Q8_7(void)
 {
-	int choice;
+	char choice;
 	double pay_list[] = { 8.75, 9.33, 10.00, 11.20 };
 	show_menu();
 
-	while (scanf_s("%d", &choice) == 1 && choice != 5)
+	while ((choice = tolower(get_first())) !='q')
 	{
-		eat_chars();
-
 		switch (choice)
 		{
-		case 1 :
+		case 'a':
 			show_pay(pay_list[0]);
 			break;
-		case 2:
+		case 'b':
 			show_pay(pay_list[1]);
 			break;
-		case 3:
+		case 'c':
 			show_pay(pay_list[2]);
 			break;
-		case 4:
+		case 'd':
 			show_pay(pay_list[3]);
 			break;
 		default:
+			printf("유효한 선택이 아닙니다.\n");
 			break;
 		}
 
@@ -91,9 +91,9 @@ static void show_menu(void)
 	printf("\n");
 	print_line();
 	printf("자신의 기본금에 해당하는 번호를 선택하시오(끝내려면 5번을 선택시오):\n");
-	printf("1) %-30s 2) %-30s\n", "시간당 $8.75", "시간당 $9.33");
-	printf("3) %-30s 4) %-30s\n", "시간당 $10.00", "시간당 $11.20");
-	printf("5) %-30s\n", "종료");
+	printf("a) %-30s b) %-30s\n", "시간당 $8.75", "시간당 $9.33");
+	printf("c) %-30s d) %-30s\n", "시간당 $10.00", "시간당 $11.20");
+	printf("q) %-30s\n", "종료");
 	print_line();
 	printf("\n");
 }

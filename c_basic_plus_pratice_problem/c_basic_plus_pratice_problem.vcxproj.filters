@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\jump">
       <UniqueIdentifier>{cc8886a1-0e8b-49de-8bcd-fd8deda40916}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\io">
+      <UniqueIdentifier>{32312e09-309f-466f-a080-f7ea63d42dc0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -282,6 +285,30 @@
     <ClCompile Include="Q7-11.c">
       <Filter>소스 파일\jump</Filter>
     </ClCompile>
+    <ClCompile Include="Q8-1.c">
+      <Filter>소스 파일\io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q8-2.c">
+      <Filter>소스 파일\io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q8-3.c">
+      <Filter>소스 파일\io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q8-4.c">
+      <Filter>소스 파일\io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q8-5.c">
+      <Filter>소스 파일\io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q8-6.c">
+      <Filter>소스 파일\io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q8-7.c">
+      <Filter>소스 파일\io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q8-8.c">
+      <Filter>소스 파일\io</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
@@ -306,6 +333,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Q7.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Q8.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

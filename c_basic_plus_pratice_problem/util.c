@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 char* s_gets(char* str, int n)
 {
@@ -29,7 +30,9 @@ void eat_chars(void)
 char get_first(void)
 {
 	char ch;
-	ch = getchar();
+
+	while (isspace(ch = getchar()))
+		continue;
 
 	eat_chars();
 
