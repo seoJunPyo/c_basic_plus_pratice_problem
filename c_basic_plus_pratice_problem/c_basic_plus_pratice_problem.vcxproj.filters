@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\io">
       <UniqueIdentifier>{32312e09-309f-466f-a080-f7ea63d42dc0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\function">
+      <UniqueIdentifier>{512e260b-6e9e-4f80-8b35-7b443a568801}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -309,6 +312,33 @@
     <ClCompile Include="Q8-8.c">
       <Filter>소스 파일\io</Filter>
     </ClCompile>
+    <ClCompile Include="Q9-1.c">
+      <Filter>소스 파일\function</Filter>
+    </ClCompile>
+    <ClCompile Include="Q9-2.c">
+      <Filter>소스 파일\function</Filter>
+    </ClCompile>
+    <ClCompile Include="Q9-3.c">
+      <Filter>소스 파일\function</Filter>
+    </ClCompile>
+    <ClCompile Include="Q9-4.c">
+      <Filter>소스 파일\function</Filter>
+    </ClCompile>
+    <ClCompile Include="Q9-5.c">
+      <Filter>소스 파일\function</Filter>
+    </ClCompile>
+    <ClCompile Include="Q9-6.c">
+      <Filter>소스 파일\function</Filter>
+    </ClCompile>
+    <ClCompile Include="Q9-7.c">
+      <Filter>소스 파일\function</Filter>
+    </ClCompile>
+    <ClCompile Include="Q9-8.c">
+      <Filter>소스 파일\function</Filter>
+    </ClCompile>
+    <ClCompile Include="Q9-9.c">
+      <Filter>소스 파일\function</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
@@ -336,6 +366,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Q8.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Q9.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

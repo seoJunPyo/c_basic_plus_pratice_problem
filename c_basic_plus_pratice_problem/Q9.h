@@ -1,0 +1,9 @@
+int Q9_1(void);
+int Q9_2(void);
+int Q9_3(void);
+int Q9_4(void);
+int Q9_5(void);
+int Q9_6(void);
+int Q9_7(void);
+int Q9_8(void);
+int Q9_9(void);
