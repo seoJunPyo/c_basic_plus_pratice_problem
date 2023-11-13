@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\function">
       <UniqueIdentifier>{512e260b-6e9e-4f80-8b35-7b443a568801}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\array">
+      <UniqueIdentifier>{faa055e5-e028-4cbe-afcd-93e7d8a22065}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -345,6 +348,45 @@
     <ClCompile Include="Q9-11.c">
       <Filter>소스 파일\function</Filter>
     </ClCompile>
+    <ClCompile Include="Q10-1.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-2.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-3.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-4.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-5.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-6.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-7.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-8.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-9.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-10.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-11.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-12.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10-13.c">
+      <Filter>소스 파일\array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
@@ -375,6 +417,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Q9.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Q10.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

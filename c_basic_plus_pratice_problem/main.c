@@ -7,11 +7,12 @@
 #include "Q7.h"
 #include "Q8.h"
 #include "Q9.h"
+#include "Q10.h"
 #include "Q14.h"
 #include "Q15.h"
 
 int main(void)
 {
-	Q9_11();
+	Q10_13();
 	return 0;
 }
