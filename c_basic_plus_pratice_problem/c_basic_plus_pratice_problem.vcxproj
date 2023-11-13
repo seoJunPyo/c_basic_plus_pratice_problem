@@ -144,6 +144,16 @@
     <ClCompile Include="Q10-6.c" />
     <ClCompile Include="Q10-7.c" />
     <ClCompile Include="Q10-8.c" />
+    <ClCompile Include="Q11-1.c" />
+    <ClCompile Include="Q11-10.c" />
+    <ClCompile Include="Q11-2.c" />
+    <ClCompile Include="Q11-3.c" />
+    <ClCompile Include="Q11-4.c" />
+    <ClCompile Include="Q11-5.c" />
+    <ClCompile Include="Q11-6.c" />
+    <ClCompile Include="Q11-7.c" />
+    <ClCompile Include="Q11-8.c" />
+    <ClCompile Include="Q11-9.c" />
     <ClCompile Include="Q14-1.c" />
     <ClCompile Include="Q14-10.c" />
     <ClCompile Include="Q14-3.c" />
@@ -242,6 +252,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q10.h" />
+    <ClInclude Include="Q11.h" />
     <ClInclude Include="Q14.h" />
     <ClInclude Include="Q15.h" />
     <ClInclude Include="Q2.h" />

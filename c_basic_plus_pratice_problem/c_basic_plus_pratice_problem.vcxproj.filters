@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\array">
       <UniqueIdentifier>{faa055e5-e028-4cbe-afcd-93e7d8a22065}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\string">
+      <UniqueIdentifier>{f2e15f2e-2c7e-4676-9d4b-2d4a358dfbd9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -387,6 +390,36 @@
     <ClCompile Include="Q10-13.c">
       <Filter>소스 파일\array</Filter>
     </ClCompile>
+    <ClCompile Include="Q11-1.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-2.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-3.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-5.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-4.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-6.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-7.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-8.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-9.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-10.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
@@ -420,6 +453,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Q10.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Q11.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
