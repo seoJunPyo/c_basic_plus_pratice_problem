@@ -7,3 +7,5 @@ int Q9_6(void);
 int Q9_7(void);
 int Q9_8(void);
 int Q9_9(void);
+int Q9_10(void);
+int Q9_11(void);

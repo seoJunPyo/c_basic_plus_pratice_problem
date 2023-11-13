@@ -339,6 +339,12 @@
     <ClCompile Include="Q9-9.c">
       <Filter>소스 파일\function</Filter>
     </ClCompile>
+    <ClCompile Include="Q9-10.c">
+      <Filter>소스 파일\function</Filter>
+    </ClCompile>
+    <ClCompile Include="Q9-11.c">
+      <Filter>소스 파일\function</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">

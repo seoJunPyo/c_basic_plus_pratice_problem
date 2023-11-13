@@ -215,6 +215,8 @@
     <ClCompile Include="Q8-7.c" />
     <ClCompile Include="Q8-8.c" />
     <ClCompile Include="Q9-1.c" />
+    <ClCompile Include="Q9-10.c" />
+    <ClCompile Include="Q9-11.c" />
     <ClCompile Include="Q9-2.c" />
     <ClCompile Include="Q9-3.c" />
     <ClCompile Include="Q9-4.c" />
