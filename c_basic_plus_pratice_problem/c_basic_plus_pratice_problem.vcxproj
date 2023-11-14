@@ -146,6 +146,12 @@
     <ClCompile Include="Q10-8.c" />
     <ClCompile Include="Q11-1.c" />
     <ClCompile Include="Q11-10.c" />
+    <ClCompile Include="Q11-11.c" />
+    <ClCompile Include="Q11-12.c" />
+    <ClCompile Include="Q11-13.c" />
+    <ClCompile Include="Q11-14.c" />
+    <ClCompile Include="Q11-15.c" />
+    <ClCompile Include="Q11-16.c" />
     <ClCompile Include="Q11-2.c" />
     <ClCompile Include="Q11-3.c" />
     <ClCompile Include="Q11-4.c" />

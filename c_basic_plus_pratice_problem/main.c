@@ -12,8 +12,8 @@
 #include "Q14.h"
 #include "Q15.h"
 
-int main(void)
+int main(int argc, char * argv[])
 {
-	Q11_10();
+	Q11_16(argc, argv);
 	return 0;
 }

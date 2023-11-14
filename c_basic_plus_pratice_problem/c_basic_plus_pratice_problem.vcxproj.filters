@@ -420,6 +420,24 @@
     <ClCompile Include="Q11-10.c">
       <Filter>소스 파일\string</Filter>
     </ClCompile>
+    <ClCompile Include="Q11-11.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-12.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-13.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-14.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-15.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11-16.c">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
