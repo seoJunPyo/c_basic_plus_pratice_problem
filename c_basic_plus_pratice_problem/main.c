@@ -9,11 +9,12 @@
 #include "Q9.h"
 #include "Q10.h"
 #include "Q11.h"
+#include "Q12.h"
 #include "Q14.h"
 #include "Q15.h"
 
 int main(int argc, char * argv[])
 {
-	Q11_16(argc, argv);
+	Q12_9();
 	return 0;
 }

@@ -1,0 +1,9 @@
+int Q12_1(void);
+int Q12_2(void);
+int Q12_3(void);
+int Q12_4(void);
+int Q12_5(void);
+int Q12_6(void);
+int Q12_7(void);
+int Q12_8(void);
+int Q12_9(void);

@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\string">
       <UniqueIdentifier>{f2e15f2e-2c7e-4676-9d4b-2d4a358dfbd9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\memory">
+      <UniqueIdentifier>{82ec1452-fda2-446c-a12e-e1c1cf312e58}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -438,6 +441,33 @@
     <ClCompile Include="Q11-16.c">
       <Filter>소스 파일\string</Filter>
     </ClCompile>
+    <ClCompile Include="Q12-1.c">
+      <Filter>소스 파일\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q12-2.c">
+      <Filter>소스 파일\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q12-3.c">
+      <Filter>소스 파일\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q12-4.c">
+      <Filter>소스 파일\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q12-5.c">
+      <Filter>소스 파일\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q12-6.c">
+      <Filter>소스 파일\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q12-7.c">
+      <Filter>소스 파일\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q12-8.c">
+      <Filter>소스 파일\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Q12-9.c">
+      <Filter>소스 파일\memory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
@@ -474,6 +504,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Q11.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Q12.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
