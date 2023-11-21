@@ -127,6 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Q13-10.c" />
+    <ClCompile Include="Q13-11.c" />
+    <ClCompile Include="Q13-12.c" />
+    <ClCompile Include="Q13-13.c" />
+    <ClCompile Include="Q13-9.c" />
+    <ClCompile Include="Q13-3.c" />
     <ClCompile Include="Q12-8.c" />
     <ClCompile Include="Q12-3.c" />
     <ClCompile Include="14-11.c" />
@@ -169,6 +175,13 @@
     <ClCompile Include="Q12-6.c" />
     <ClCompile Include="Q12-7.c" />
     <ClCompile Include="Q12-9.c" />
+    <ClCompile Include="Q13-1.c" />
+    <ClCompile Include="Q13-2.c" />
+    <ClCompile Include="Q13-4.c" />
+    <ClCompile Include="Q13-5.c" />
+    <ClCompile Include="Q13-6.c" />
+    <ClCompile Include="Q13-7.c" />
+    <ClCompile Include="Q13-8.c" />
     <ClCompile Include="Q14-1.c" />
     <ClCompile Include="Q14-10.c" />
     <ClCompile Include="Q14-3.c" />
@@ -269,6 +282,7 @@
     <ClInclude Include="Q10.h" />
     <ClInclude Include="Q11.h" />
     <ClInclude Include="Q12.h" />
+    <ClInclude Include="Q13.h" />
     <ClInclude Include="Q14.h" />
     <ClInclude Include="Q15.h" />
     <ClInclude Include="Q2.h" />

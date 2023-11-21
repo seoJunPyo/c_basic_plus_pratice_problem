@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\memory">
       <UniqueIdentifier>{82ec1452-fda2-446c-a12e-e1c1cf312e58}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\file io">
+      <UniqueIdentifier>{652435d6-6793-44ad-96e2-46badf22b518}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -468,6 +471,45 @@
     <ClCompile Include="Q12-9.c">
       <Filter>소스 파일\memory</Filter>
     </ClCompile>
+    <ClCompile Include="Q13-1.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-2.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-3.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-4.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-5.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-6.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-7.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-8.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-9.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-10.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-11.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-12.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13-13.c">
+      <Filter>소스 파일\file io</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Q14.h">
@@ -507,6 +549,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Q12.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Q13.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
