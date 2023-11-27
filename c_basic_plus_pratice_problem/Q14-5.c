@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "Q14.h"
 #define MAXNAME 20
 #define GRADE_SIZE 3
 #define CSIZE 4

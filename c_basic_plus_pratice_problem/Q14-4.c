@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "Q14.h"
 #define MAXLEN 5
 #define MAXNAMELEN 20
 void print_profile(struct profile *);

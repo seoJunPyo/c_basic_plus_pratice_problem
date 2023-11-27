@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-#include "util.h"
-
+#include "Q14.h"
 #define MAXTITL 40
 #define MAXAUTL 40
 #define MAXBKS 100

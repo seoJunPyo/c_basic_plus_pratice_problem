@@ -13,9 +13,10 @@
 #include "Q13.h"
 #include "Q14.h"
 #include "Q15.h"
+#include "Q17.h"
 
 int main(int argc, char * argv[])
 {
-	Q13_13();
+	Q17_7();
 	return 0;
 }
